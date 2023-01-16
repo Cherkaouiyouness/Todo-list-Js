@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 400px;
+    padding: 12px;
+    font-size: 20px;
+    border: 3px solid #0065c3;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#addTask{
+    width: 80px;
+    padding: 12px;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: #0065c3;
+    border: 3px solid #0065c3;
+    border-radius: 6px;
+}
+.remove{
+    width: 80px;
+    padding: 10px;
+    font-size: 15px;
+    border: 3px solid green;
+    background-color: green;
+    border-radius: 6px;
+
+}
+.supp{
+    margin: 10px 0;
+    width: 400px;
+    padding: 24px;
+    font-size: 20px;
+    background-color : gainsboro;
+    border-radius: 6px;
+}
+#myElem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    
+}
+#para{
+    font-size: 20px;
+    font-weight: 700;
+}
